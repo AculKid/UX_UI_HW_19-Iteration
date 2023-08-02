@@ -1,0 +1,286 @@
+header{    
+    background-color: #367078;
+}
+/* Logo Styles */
+.logo{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Socials Styles */
+.em{
+    height: 30px;
+    width: 30px; 
+    
+}
+.li, .ig{
+    height: 25px;
+    width: 25px;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 8%;
+    padding-left: 50px;
+}
+
+
+/* Nav Styles */
+.nav{
+    display: flex;
+    background-color: #367078;
+    padding: 20px;
+}
+.center{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center a{
+    color: white;
+    padding: 10px;
+    padding-left: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+/* About Styles */
+.About{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+}
+
+.text h1{
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.text p{
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    font-size: larger;
+    padding: 20px;
+    padding-left: 50px;
+    margin: auto;
+}
+
+.text button{
+    margin-top: 40px;
+    padding: 20px;
+    color: white;
+    background-color: #367078;
+}
+
+.mePic{
+    display: block;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 20px;
+    padding-right: 100px;
+}
+
+.clogoE{
+    height: 50px;
+    width: 70px; 
+}
+.clogo{
+    height: 50px;
+    width: 50px; 
+}
+.mePic a{
+    display: inline-block;
+    justify-content: space-evenly;
+    padding: 20px;
+    padding-left: 45px;
+    margin: auto;
+}
+
+/* My Skills Styles */
+.mySkills h1{
+    padding-top: 30px;
+}
+.mySkills h1, h3, img, p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.mySkills img{
+    padding: 20px;
+    margin: auto;
+}
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexContainer div{
+    width: 33%;
+    padding: 80px;
+    margin: auto;
+}
+
+
+/* My Work Styles */
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    transition: 0.3s;
+    position: relative;
+    text-align: center;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    width:100%;
+    background: rgb(97, 109, 122);
+    padding: 20px 40px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 0px;
+  }
+
+.text2{
+    width:100%;
+    background: rgb(97, 109, 122);
+    padding: 20px 40px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.myWork h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-size: larger;
+}
+.workGrid{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+}
+.p1{
+    grid-area: project1;
+    grid-row: 1;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    padding-bottom: 100px;
+}
+
+.p2{
+    grid-area: project2;
+    grid-row: 1;
+    grid-column-start: 6;
+    grid-column-end: 8;
+}
+
+.mySkills button{
+    background: rgb(97, 109, 122);
+    padding: 20px 40px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+/* Footer Styles */
+.footer{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-bottom: auto;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(97, 109, 122,0.7);
+    color: white;
+}
+
+.footer h1{
+    text-align: center;
+}
+
+.column{
+    display: flex;
+    height: 1200px;
+    width: 800px;
+    flex-direction: column;
+}
+
+button{
+    display: block;
+    margin: auto;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 20px;
+    width: 50%;
+    box-shadow: 0 5px 6px 0 rgba(0,0,0,0.2), 0 6px 6px 0 rgba(0,0,0,0.19); 
+}
+
+button:hover {
+    box-shadow: none;
+  }
+
+.socialsfoot{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Javascript scroll to top button Styles */
+#btnScrollToTop{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    background: #367078;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+#btnScrollToTop:active{
+    background: #367196;
+}

@@ -1,0 +1,230 @@
+header{    
+    background-color: #367078;
+}
+/* Logo Styles */
+.logo{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Socials Styles */
+.em{
+    height: 30px;
+    width: 30px; 
+    
+}
+.li, .ig{
+    height: 25px;
+    width: 25px;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 8%;
+    padding-left: 50px;
+}
+
+
+/* Nav Styles */
+.nav{
+    display: flex;
+    background-color: #367078;
+    padding: 20px;
+}
+.center{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center a{
+    color: white;
+    padding: 10px;
+    padding-left: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+/* Hero img Styles */
+.bgi{
+    background-image: url(../Images/blueprint-bg\ .svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+    display: flex;
+
+}
+
+.background-img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.paper{
+    display: flex;
+    width: 60px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: absolute;
+    padding-top: 150px;
+    
+}
+
+.herotext{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 50px;
+    z-index: +1;
+    font-size: 30px;
+}
+
+.me{
+    width: 500px;
+    height: 700px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 900px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    
+}
+
+/* Work Styles */
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    transition: 0.3s;
+    position: relative;
+    text-align: center;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+.text{
+    width:100%;
+    background: rgb(97, 109, 122);
+    padding: 20px 40px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 0px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.row1{
+    flex-direction: column;
+    padding: 20px;
+}
+.row2{
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+/* Footer Styles */
+.footer{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-bottom: auto;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(97, 109, 122,0.7);
+    color: white;
+}
+
+.footer h1{
+    text-align: center;
+}
+
+.column{
+    display: flex;
+    height: 1200px;
+    width: 800px;
+    flex-direction: column;
+}
+
+button{
+    display: block;
+    margin: auto;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 20px;
+    width: 50%;
+    box-shadow: 0 5px 6px 0 rgba(0,0,0,0.2), 0 6px 6px 0 rgba(0,0,0,0.19); 
+}
+
+button:hover {
+    box-shadow: none;
+  }
+
+.socialsfoot{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Javascript scroll to top button Styles */
+#btnScrollToTop{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    background: #367078;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+#btnScrollToTop:active{
+    background: #367196;
+}
