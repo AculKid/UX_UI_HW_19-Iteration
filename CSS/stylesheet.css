@@ -118,21 +118,25 @@ header{
     transition: 0.3s;
     position: relative;
     text-align: center;
+    margin: 10px;
+    border-radius: 20px;
   }
   
   /* On mouse-over, add a deeper shadow */
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
   }
   
   /* Add some padding inside the card container */
   .container {
     padding: 2px 16px;
   }
+
 .text{
     width:100%;
     background: rgb(97, 109, 122);
-    padding: 20px 40px;
+    padding: 30px 90px;
     color: white;
     border: none;
     border-radius: 8px;
